@@ -44,7 +44,7 @@ if not os.path.isdir(output_dir):
     os.makedirs(output_dir)
 
 TIMESTAMP = "{0:%Y-%m-%dT%H-%M-%S/}".format(datetime.now())
-CLASS_NUM = 10
+CLASS_NUM = 29
 
 
 def main():
