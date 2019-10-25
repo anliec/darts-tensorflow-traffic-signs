@@ -8,7 +8,7 @@ import tflearn
 from cnn.genotypes import PRIMITIVES
 from cnn.genotypes import Genotype
 from cnn.operations import *
-import cnn.utils
+from cnn import utils
 
 null_scope = tf.VariableScope("")
 
