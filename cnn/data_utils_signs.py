@@ -146,6 +146,8 @@ def read_data(data_path, train_portion=1, input_size=(32, 32), ignore_npz=False,
                                      test_to_train_ratio=1.0 - train_portion)
     images["train"], labels["train"], images["valid"], labels["valid"] = data
 
+    print(images["train"].shape, labels["train"].shape, images["valid"].shape, labels["valid"].shape)
+
     images["test"], labels["test"] = None, None
 
     print("Prepropcess: [subtract mean], [divide std]")
